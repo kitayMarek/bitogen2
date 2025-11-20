@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
+  <rect x="0" y="0" width="200" height="60" fill="white" />
+  <!-- Bit-style blocks -->
+  <rect x="10" y="18" width="12" height="24" rx="2" ry="2" stroke="black" fill="none"/>
+  <rect x="26" y="18" width="12" height="24" rx="2" ry="2" stroke="black" fill="black"/>
+  <rect x="42" y="18" width="12" height="24" rx="2" ry="2" stroke="black" fill="none"/>
+  <rect x="58" y="18" width="12" height="24" rx="2" ry="2" stroke="black" fill="black"/>
+
+  <!-- Gene-style curve -->
+  <path d="M90 15 C 105 5, 115 35, 130 25 S 155 5, 170 20" stroke="black" fill="none" stroke-width="2"/>
+
+  <!-- Text label -->
+  <text x="90" y="45" font-family="monospace" font-size="18">bitogen</text>
+</svg>

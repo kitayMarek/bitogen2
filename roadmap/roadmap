@@ -1,0 +1,32 @@
+# Bitogen Project Roadmap (Draft)
+
+## Phase 1 – Concept Consolidation
+- [x] High‑level documentation (overview, README).
+- [x] Scientific whitepaper draft.
+- [x] Cipher specification (high‑level).
+- [x] Initial example dictionaries.
+
+## Phase 2 – Prototyping
+- [ ] Implement reference bitogen tokenizer / detokenizer in Python.
+- [ ] Implement simple bitogen→ANS compression prototype.
+- [ ] Implement hybrid cipher prototype (using an existing AEAD library).
+- [ ] Create test harness and sample datasets.
+
+## Phase 3 – Evaluation
+- [ ] Measure compression ratios vs zstd / brotli / CMIX on selected corpora.
+- [ ] Measure performance (speed, memory usage).
+- [ ] Evaluate structural leakage and traffic analysis resistance.
+- [ ] Collect feedback from cryptography and compression researchers.
+
+## Phase 4 – Refinement
+- [ ] Improve dictionary learning using AI‑based clustering.
+- [ ] Explore domain‑specific dictionaries (logs, binaries, media).
+- [ ] Tune hybrid cipher design based on expert feedback.
+- [ ] Prepare academic paper submissions (compression / security venues).
+
+## Phase 5 – Stabilization & Outreach
+- [ ] Clean, documented reference implementation.
+- [ ] Example notebooks / demos.
+- [ ] Public presentations or blog posts.
+- [ ] Invite collaborators via GitHub Issues / Discussions.
+
